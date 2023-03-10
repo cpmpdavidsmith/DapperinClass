@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/DavidSmith/Desktop/Repos/DapperInClass/DapperInClass/DapperInClass.csproj": {}
+  },
+  "projects": {
+    "/Users/DavidSmith/Desktop/Repos/DapperInClass/DapperInClass/DapperInClass.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/DavidSmith/Desktop/Repos/DapperInClass/DapperInClass/DapperInClass.csproj",
+        "projectName": "DapperInClass",
+        "projectPath": "/Users/DavidSmith/Desktop/Repos/DapperInClass/DapperInClass/DapperInClass.csproj",
+        "packagesPath": "/Users/DavidSmith/.nuget/packages/",
+        "outputPath": "/Users/DavidSmith/Desktop/Repos/DapperInClass/DapperInClass/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/DavidSmith/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.32.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
